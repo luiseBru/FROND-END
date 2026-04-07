@@ -38,7 +38,7 @@ function pagina(){
         novaTarefa.textContent = texto; // adiciona texto ao elemento da lista
         novaTarefa.classList.add('destaque'); // adiciona a classe "destaque ao li.
         novaTarefa.setAttribute("data-tarefa", texto.toLowerCase()); // adiciona o atributo
-        novaTarefa.style.color = "#D333"; 
+        novaTarefa.style.color = "#D333";  
 
         lista.appendChild(novaTarefa); // adiciona o elemento
 
